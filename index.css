@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Regular.eot');
+    src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+        url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+        url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+        url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    font-family: "Fira Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 36px auto;
+    font-size: 48px;
+}
+
+p {
+    width: 300px;
+    font-size: 24px;
+    margin: 36px auto 48px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    width: 300px;
+    list-style-type: none;
+    margin: 12px auto;
+    border-radius: 5px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 0.3s;
+}
+
+a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    border-radius: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0px);
+    transition: 0.3s;
+}
+
+li:hover {
+    background-size: 125%;
+}
+
+a:hover {
+    padding: 48px 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+li:nth-child(1) {
+    background-image: url("img/gaspacho.jpg");
+}
+
+li:nth-child(2) {
+    background-image: url("img/croziflette.jpg");
+}
+
+li:nth-child(3) {
+    background-image: url("img/chocolate-cake.jpg");
+}
