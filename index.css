@@ -7,7 +7,7 @@
         url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
 }
 
-.container {
+body {
     max-width: 400px;
     margin: auto;
     font-family: "Fira Sans", sans-serif;

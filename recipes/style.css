@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Regular.eot');
+    src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+        url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+        url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+        url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
+}
+
+body {
+    max-width: 400px;
+    margin: auto;
+    font-family: "Fira Sans", sans-serif;
+    padding: 0 10px 10px 10px;
+}
+
+img {
+    /* display: block; */
+    margin: 0 -10px;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    box-shadow: inset 0 0 10px #000000;
+
+}
+
+h1 {
+    text-align: right;
+    font-size: 48px;
+    margin: 36px 10px 0px 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+h3 {
+    margin: 20px 10px 0px 10px;
+    /* padding: 10px; */
+    font-size: 16px;
+}
+
+.source p {
+    margin: 0px 10px;
+    /* padding: 0px 10px 10px 10px; */
+
+}
+
+.source {
+    display: block;
+    font-size: 12px;
+    text-align: right;
+    width: fit-content;
+    margin: 25px 0px 0px auto;
+    color: rgb(200, 200, 200);
+}
